@@ -1,6 +1,6 @@
 {{- if not ($.Page.Scratch.Get "embed-pdf-count") -}}
 
-<script type="text/javascript" src= '/js/pdf-js/build/pdf.js'></script>
+<script src= '/js/pdf-js/build/pdf.js'></script> <!--fix according to https://discourse.gohugo.io/t/embed-pdf-file-into-a-page-or-post-papermod-theme/36440-->
 
 <style>
   #embed-pdf-container {
